@@ -1,4 +1,4 @@
-#include <vector>
+#include <cstring>
 
 #include "easy_print.h"
 #include "ip_calc.h"
@@ -11,7 +11,7 @@ int main(int argc, char* argv[]){
     if (argc == 1) {
         easy_print.print("Welcome to the iputils.");
     } else {
-        if (strcmp(argv[1],"c") == 0) {
+        if (std::strcmp(argv[1],"c") == 0) {
             IPCalc(argv[2]);
             /*
             vector<string> input_data = split(argv[2],'.');

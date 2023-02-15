@@ -1,3 +1,5 @@
+#include <bitset>
+
 #include "ip_calc.h"
 #include "easy_print.h"
 #include "split.h"
